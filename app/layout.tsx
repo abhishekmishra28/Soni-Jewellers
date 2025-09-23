@@ -88,15 +88,15 @@ export default function RootLayout({
     {/* First Copy */}
     <div className="marquee-content">
       <span>🎉 Soni Jewellers and Navratna Bhandar Mega Opening in Latehar On <strong>24th Sep, 2025</strong></span>
-      <span>💎 Bumper Offer Coming Soon... Stay Connected!</span>
-      <span>📢 Keep Checking the Website for the Mega Offer</span>
+      <span>💎 Buy Gold Get Silver Jewellery FREE !!</span>
+      <span>📢 No Making Charges On Silver Jewellery !!</span>
     </div>
 
     {/* Second Copy */}
     <div className="marquee-content" aria-hidden="true">
       <span>🎉 Soni Jewellers and Navratna Bhandar Mega Opening in Latehar On <strong>24th Sep, 2025</strong></span>
-      <span>💎 Bumper Offer Coming Soon... Stay Connected!</span>
-      <span>📢 Keep Checking the Website for the Mega Offer</span>
+      <span>💎 Buy Gold Get Silver Jewellery FREE !!</span>
+      <span>📢 No Making Charges On Silver Jewellery !!</span>
     </div>
   </div>
 </div>
