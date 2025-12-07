@@ -84,22 +84,22 @@ export default function RootLayout({
           <BumperOffer />
           <Navbar />
           <div className="relative bg-gradient-to-r from-yellow-400 via-amber-300 to-yellow-400 text-black font-semibold shadow-md overflow-hidden">
-  <div className="marquee-track">
-    {/* First Copy */}
-    <div className="marquee-content">
-      <span>🎉 Soni Jewellers and Navratna Bhandar Mega Opening in Latehar On <strong>24th Sep, 2025</strong></span>
-      <span>💎 Buy Gold Get Silver Jewellery FREE !!</span>
-      <span>📢 No Making Charges On Silver Jewellery !!</span>
-    </div>
+            <div className="marquee-track">
+              {/* First Copy */}
+              <div className="marquee-content">
+                <span>🎉 Soni Jewellers and Navratna Bhandar</span>
+                <span>💎 Bumper Offers coming Soon !!</span>
+                <span>📢 Stay Updated !!</span>
+              </div>
 
-    {/* Second Copy */}
-    <div className="marquee-content" aria-hidden="true">
-      <span>🎉 Soni Jewellers and Navratna Bhandar Mega Opening in Latehar On <strong>24th Sep, 2025</strong></span>
-      <span>💎 Buy Gold Get Silver Jewellery FREE !!</span>
-      <span>📢 No Making Charges On Silver Jewellery !!</span>
-    </div>
-  </div>
-</div>
+              {/* Second Copy */}
+              <div className="marquee-content" aria-hidden="true">
+                <span>🎉 Soni Jewellers and Navratna Bhandar</span>
+                <span>💎 Payment Feature updated coming soon !!</span>
+                <span>📢 Stay Connected !!</span>
+              </div>
+            </div>
+          </div>
 
           <main className="min-h-screen">{children}</main>
           <Suspense fallback={<Skeleton className="h-40" />}>
